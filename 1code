@@ -1,0 +1,39 @@
+import java.util.*;
+
+
+public class fourth{
+    public static void main(String[] args) {
+         
+
+        byte byteValue = 127;          
+        short shortValue = 32000;      
+        int intValue = 100000;        
+        long longValue = 10000000000L; 
+        float floatValue = 3.14f;      
+        double doubleValue = 3.14159;
+
+        char charValue = 'A';         
+        boolean booleanValue = true;  
+
+       
+        System.out.println("byte value: " + byteValue);
+        System.out.println("short value: " + shortValue);
+        System.out.println("int value: " + intValue);
+        System.out.println("long value: " + longValue);
+        System.out.println("float value: " + floatValue);
+        System.out.println("double value: " + doubleValue);
+        System.out.println("char value: " + charValue);
+        System.out.println("boolean value: " + booleanValue);
+
+        
+        String stringValue = "Hello, Java!"; 
+        int[] arrayValue = {1, 2, 3, 4, 5}; 
+
+       
+        System.out.println("String value: " + stringValue);
+        System.out.print("Array values: ");
+        for (int i = 0; i < arrayValue.length; i++) {
+            System.out.print(arrayValue[i] + " ");
+        }
+    }
+}
